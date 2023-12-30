@@ -1,13 +1,17 @@
-import { Component } from "react";
+import React from 'react'
+import './StyleSheets/App.css'
+import NavBar from './Components/NavBar'
+import Banner from './Components/Banner'
+import RowPost from './Components/RowPost'
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return <>Netflix App coming soon...</>;
-  }
+function App() {
+  return (
+    <div className='App'>
+      <NavBar/>
+      <Banner/>
+      <RowPost/>
+    </div>
+  )
 }
 
-export default App;
+export default App

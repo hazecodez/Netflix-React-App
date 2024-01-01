@@ -6,7 +6,7 @@
   background-color: #111;
   padding: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   z-index: 1;
 }
 .logo {
@@ -20,4 +20,21 @@
   top: 23.6px;
   right: 50px;
   width: 30px;
+}
+
+.tabs ul {
+  list-style: none;
+  display: flex; /* Display list items horizontally */
+  margin: 0;
+  padding: 0;
+}
+
+.tabs li {
+  margin-right: 40px; /* Adjust spacing between list items as needed */
+  color: white;
+  cursor: pointer;
+}
+
+.tabs li:hover {
+  border-bottom: 3px solid red;
 }

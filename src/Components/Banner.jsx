@@ -7,7 +7,7 @@ function Banner() {
   const [movie, setMovie] = useState();
   useEffect(() => {
     axios.get(sci_fiUrl).then((res) => {
-      setMovie(res.data.results[12]);
+      setMovie(res.data.results[13]);
     }).catch(error=> {
       alert('Something went wrong.')
     });

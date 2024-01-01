@@ -13,6 +13,7 @@ import {
   historyUrl,
   sci_fiUrl
 } from "./Constants/Constants";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
       <RowPost data={{ Genre: "Romance", url: romanceUrl }} />
       <RowPost data={{ Genre: "Comedy", url: comedyUrl }} />
       <RowPost data={{ Genre: "History", url: historyUrl }} />
-      
+      <Footer/>
     </div>
   );
 }

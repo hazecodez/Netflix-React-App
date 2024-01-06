@@ -9,4 +9,3 @@ export const horrorUrl = `/discover/movie?api_key=${API_KEY}&with_genres=27`
 export const romanceUrl = `/discover/movie?api_key=${API_KEY}&with_genres=10749`
 export const historyUrl = `/discover/movie?api_key=${API_KEY}&with_genres=36`
 export const sci_fiUrl = `/discover/movie?api_key=${API_KEY}&with_genres=878`
-// export const trailerApi = `/movie/572802/videos?language=en-US&api_key=${API_KEY}`
